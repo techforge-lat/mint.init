@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 sudo dnf -y remove docker \
                   docker-client \
                   docker-client-latest \
