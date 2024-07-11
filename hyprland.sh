@@ -7,3 +7,4 @@ sudo dnf install pipx
 pipx install waypaper
 sudo dnf -y install pamixer
 sudo dnf -y install fastfetch
+sudo dnf -y install pavucontrol
