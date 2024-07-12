@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-sudo dnf -y install flameshot
+flatpak install flathub org.flameshot.Flameshot

@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 
-sudo dnf -y install fzf
+sudo apt -y install fzf
+

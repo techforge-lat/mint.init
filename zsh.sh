@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 
-sudo dnf -y install zsh
+sudo apt -y install zsh
 
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+sh -c -y "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
-chsh -s $(which zsh)
+echo 'exec zsh' >> $HOME/.bashrc
+source ~/.zshrc

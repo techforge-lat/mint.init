@@ -5,8 +5,8 @@ declare -a fonts=(
 )
 
 # Instalar unzip y fontconfig si no están instalados
-sudo dnf update
-sudo dnf -y install unzip fontconfig
+sudo apt update
+sudo apt -y install unzip fontconfig
 
 version='2.1.0'
 fonts_dir="${HOME}/.local/share/fonts"

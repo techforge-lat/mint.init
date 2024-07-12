@@ -1,3 +1,3 @@
-sudo dnf -y install openssl
+sudo apt -y install openssl
 
 flatpak install flathub com.getpostman.Postman

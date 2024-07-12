@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-sudo dnf -y install nodejs
+sudo apt -y install nodejs
