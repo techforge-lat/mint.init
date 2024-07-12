@@ -1,5 +1,7 @@
 #!/bin/bash
 
+mkdir -p $HOME/code
+
 sudo apt update \
 	&& sudo apt -y install \
 	curl \
