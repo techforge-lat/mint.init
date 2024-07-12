@@ -15,12 +15,13 @@ sudo apt update \
 	vim \
 	wget \
 
-sudo chmod +x docker.sh fzf.sh golang.sh main-menu.sh neovim.sh postman.sh tmux.sh starship.sh zsh.sh install-font.sh homebre.sh flameshot.sh alacritty.sh obs.sh jetbrains.sh i3.sh
+./00-homebrew.sh
+./01-docker.sh
+./02-golang.sh
+./10-zsh.sh
+./20-obs.sh
 
-./homebrew.sh
-./docker.sh
 ./fzf.sh
-./golang.sh
 ./main-menu.sh
 ./neovim.sh
 ./postman.sh
@@ -29,8 +30,6 @@ sudo chmod +x docker.sh fzf.sh golang.sh main-menu.sh neovim.sh postman.sh tmux.
 ./install-font.sh
 ./flameshot.sh
 ./alacritty
-./obs.sh
 ./jetbrains.sh
 ./i3.sh
-./zsh.sh
 ./nodejs.sh

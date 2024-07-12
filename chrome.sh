@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-flatpak install flathub com.google.Chrome
+flatpak install -y flathub com.google.Chrome

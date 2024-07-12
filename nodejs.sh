@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-sudo apt -y install nodejs
+brew install nodejs

@@ -1,8 +1,11 @@
 #!/usr/bin/env bash
 
+cd $HOME
+
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
 sudo apt -y install tmux
+
 
 wget https://gist.githubusercontent.com/hernanhrm/a6abea8290f715ab5b032170ec1f73cc/raw/d52b53146f3ed5c84e25e7bb9a65d1f6f8f52204/.tmux.conf
 

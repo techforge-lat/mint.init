@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-flatpak install flathub org.flameshot.Flameshot
+flatpak install -y flathub org.flameshot.Flameshot
