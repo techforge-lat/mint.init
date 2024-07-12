@@ -15,6 +15,10 @@ sudo apt update \
 	vim \
 	wget \
 
+sudo apt -y install flatpak
+sudo apt -y install gnome-software-plugin-flatpak
+flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+
 ./00-homebrew.sh
 ./01-docker.sh
 ./02-golang.sh
